@@ -20,7 +20,7 @@ func main() {
 			return
 		}
 
-		message := fmt.Sprintf("Hello from test3 %s", hostname)
+		message := fmt.Sprintf("Hello from test5 %s", hostname)
 		fmt.Println(message)
 		c.String(http.StatusOK, message)
 	})
