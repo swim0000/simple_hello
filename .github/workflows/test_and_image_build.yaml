@@ -29,6 +29,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
         with:
-          context: simple_hello
+          context: .
           push: true
           tags: swim0000/go_hello:latest
