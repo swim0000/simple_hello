@@ -16,7 +16,7 @@ func main() {
 			return
 		}
 
-		message := fmt.Sprintf("Hello from test2 %s", hostname)
+		message := fmt.Sprintf("Hello from test3 %s", hostname)
 		fmt.Println(message)
 		w.Write([]byte(message))
 	})
