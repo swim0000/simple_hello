@@ -18,4 +18,5 @@ Before you can run this project, you'll need to have the following tools install
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/) - A tool to run Kubernetes locally.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - A virtualization tool used by Minikube.
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) - The Kubernetes command-line tool.
+- [ArgoCd](https://argo-cd.readthedocs.io/en/stable/#quick-start) - ArgoCd will be used to sync updates we push to DockerHub to deployment.
 
