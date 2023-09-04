@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          path: simple_hello/go
 
       - name: Set up Go
         uses: actions/setup-go@v4
@@ -18,11 +16,9 @@ jobs:
 
       - name: Build
         run: go build -v ./...
-        working-directory: simple_hello/go
 
       - name: Test
         run: go test -v ./...
-        working-directory: simple_hello/go
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
