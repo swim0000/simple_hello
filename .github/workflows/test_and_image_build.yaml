@@ -13,8 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set working directory
-        run: cd go_hello/**
+      - name: Set working directory to go_hello
+        working-directory: ./go_hello
+        run: echo "Changed working directory to go_hello"
 
       - name: Set up Go
         uses: actions/setup-go@v4
