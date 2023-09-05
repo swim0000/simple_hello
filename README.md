@@ -15,7 +15,7 @@ This project automates the deployment process for a Go application using GitHub 
 Before you can run this project, you'll need to have the following tools installed on your system:
 
 - [Go](https://golang.org/doc/install) - The Go programming language.
-- [Minikube](https://minikube.sigs.k8s.io/docs/start/) - A tool to run Kubernetes locally.
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/) - A tool to run Kubernetes locally. Minikube start --no-vtx-check use if getting error.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - A virtualization tool used by Minikube.
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) - The Kubernetes command-line tool.
 - [ArgoCd](https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/) - ArgoCd will be used to sync updates we push for DockerHub to deployment.
